@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chronotrol — Engineering Persistence</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0b0b0b;
+      color: #fff;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    img.logo {
+      width: 160px;
+      height: auto;
+      margin-bottom: 2rem;
+      filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin: 0.2em 0;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 1.1rem;
+      margin: 0.4em 0 1.5em;
+      color: #ccc;
+    }
+
+    p {
+      max-width: 520px;
+      line-height: 1.6;
+      font-size: 0.95rem;
+      color: #b3b3b3;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1.5rem;
+      font-size: 0.8rem;
+      color: #555;
+    }
+
+    a {
+      color: #4db6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Replace logo.png with your spiral logo file -->
+  <img src="logo.png" alt="Chronotrol Logo" class="logo">
+
+  <h1>CHRONOTROL</h1>
+  <h2>Engineering Persistence</h2>
+
+  <p>
+    Chronotrol transforms the science of <strong>Chronodynamics</strong> into practical control systems
+    that sustain order, learning, and efficiency across time.  
+    <br><br>
+    <em>Chronodynamics governs stability — Chronotrol makes it practical.</em>
+  </p>
+
+  <footer>
+    © <span id="year"></span> Chronotrol, Inc. • 
+    <a href="mailto:info@chronotrol.com">info@chronotrol.com</a>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
